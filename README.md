@@ -18,6 +18,24 @@ Given an image or a selected PDF page, the notebook should:
 6. Report cautious manual-signing and reproduction indicators with quality warnings.
 7. Store all inputs, models, intermediate artifacts, and reports persistently in Google Drive.
 
+## Input Output (Sample)
+
+1) Input Image of a scanned Form with Signature.
+
+![](https://github.com/debabratapruseth/Signature-Extraction-and-Manual-Signing-Indicator-Analysis/blob/main/Reference%20Material/Signed_Input.png)
+
+3) Signature identified and marked with bounding box and confidence score.
+
+![](https://github.com/debabratapruseth/Signature-Extraction-and-Manual-Signing-Indicator-Analysis/blob/main/Reference%20Material/Signature%20Identified%20with%20Confidence%20Score.png)
+
+5) Signature segmented and extracted. In this example the signature with highest confidence score is extracted. The segmentation also removes any marks etc. overriding the signature. This helps to extract a clean signature for forensic.
+
+![](https://github.com/debabratapruseth/Signature-Extraction-and-Manual-Signing-Indicator-Analysis/blob/main/Reference%20Material/Signarure%20Extraction%20and%20Segmentation.png)
+
+7) Signature forensic covering manual signature patterns. Note as we are analyzing a image and not actual paper with sign, the forensics are proxies for actual review.
+
+![](https://github.com/debabratapruseth/Signature-Extraction-and-Manual-Signing-Indicator-Analysis/blob/main/Reference%20Material/Manual%20Sign%20Forensics.png)
+
 ## Architecture
 
 ```text
