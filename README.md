@@ -6,6 +6,8 @@ This Google Colab notebook detects signatures in document images, extracts them,
 
 The project does **not** verify the identity of a signer and does not declare a signature genuine or forged. Its output is intended to support human review.
 
+Refer the companion blog for additional reading - https://debabratapruseth.com/build-ai-signature-detection-yolo-sam-opencv/
+
 ## Problem statement
 
 Given an image or a selected PDF page, the notebook should:
